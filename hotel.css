@@ -1,0 +1,110 @@
+.bottom{
+   background-color: rgb(224, 224, 224);
+   padding: 25px;
+   margin: 0 0;
+   max-width: 100%;
+   display: flex;
+   gap: 50px;
+}
+.section{
+    
+    text-align: center;
+    width: 1200px;
+}
+.below{
+    background-color: rgb(226, 220, 220);
+    display: flex;
+    gap: 200px;
+
+}
+.can{
+    text-align: justify;
+    padding: 25px;
+   }
+   p span{
+    font-weight: 600;}
+
+   .ones{
+   
+   margin: 20px;
+   padding: 30px;
+   
+   
+
+   }
+   .twos{
+   
+    margin: 20px;
+    padding: 30px;
+    
+ 
+    }
+    .threes{
+   
+        margin: 20px;
+        padding: 30px;
+        
+     
+        }
+
+        .fours{
+   
+            margin: 20px;
+            padding: 30px;
+            
+         
+            }
+            .fives{
+   
+                margin: 20px;
+                padding: 30px;
+                
+             
+                }
+header{
+    text-align: center;
+}
+h1{
+    background: linear-gradient(to right,rgb(209, 5, 49),blue);
+    font-size: 60px;
+    background-clip: text;
+    color: transparent;
+}
+body{
+    background-color: black;
+    }
+nav a{
+    text-decoration: none;
+    color: white;
+    
+    display: block;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(39, 59, 77);
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+@media screen and(max-width:780px) {
+    nav ul{
+        display: flex;
+    }}
+    nav li{
+        flex: 1 1 0;
+    }
+    nav{display: flex;
+        justify-content: space-between;
+
+    
+}
+.tw{
+    background:url(twitter.jpeg) no-repeat center;
+    background-size: 80%;
+}
+.fb{
+    background:url(images/fb.png) no-repeat center;
+    background-size: 40%;
+}
+ 
