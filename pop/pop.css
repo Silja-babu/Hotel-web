@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    position: relative;
+}
+body.pop{
+    background: #222;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #333;
+}
+h1{
+    font-size: 48px;
+    margin: 10px 0;
+}
+p{
+    margin-bottom: 40px;
+}
+#pop{
+    position: relative;
+    top: 200px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    animation-name: pop;
+    animation-duration: 4s;
+    transform-origin: 3px 3px ;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes pop{
+    0%{
+        transform: translateY(50px) rotateZ(0deg);
+    }
+    40%{transform: translateY(50px) rotateZ(160deg);}
+
+}
+#pop img{
+    position: relative;
+    top: -100px;
+}
+#pop .box{
+    background: rgb(247, 223, 223);
+    padding: 30px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#pop input{
+    padding: 10px;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+}
+button{
+    padding: 10px;
+    border: 0;
+    color:white;
+    background: black;
+    margin-left: -5px;
+    border-radius: 0 10px 10px 0;
+    font-size: 18px;
+    
+}
+.cross{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #555;
+    color: #ddd;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 11px;
+}
+header{
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
