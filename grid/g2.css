@@ -1,0 +1,27 @@
+body{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#content{
+    display: grid;
+    /*grid-template-columns: 33.3% 33.3% 33.3%;*/
+    /*grid-template-columns: 20% 40% 40%;*/
+    /*grid-template-columns:1fr 1fr 1fr ;*/
+    /*grid-template-columns: 1fr 2fr 3fr;*/
+    /*grid-template-columns: 1fr 2fr 3fr 4fr 1fr;*/
+    grid-template-columns: repeat(5,2fr);
+    max-width: 960px;
+    margin: 0 auto;
+}
+#content div{
+    background: #3bbced;
+    padding: 30px;
+    margin: 20px;
+}
+#content div:nth-child(even){
+    background: #777;
+   /* margin: 20px;
+    width: 20%;*/
+    
+}
